@@ -111,8 +111,8 @@
 
         /* ABOUT */
         .about-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 3rem; align-items: center; margin-top: 2rem; }
-        .about-photo { aspect-ratio: 4/5; background: var(--bg-warm); border-radius: 16px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); overflow: hidden; }
-        .about-photo-placeholder { color: var(--text-muted); font-size: 0.85rem; text-align: center; padding: 1rem; }
+        .about-photo { aspect-ratio: 4/5; background: var(--bg-warm); border-radius: 16px; border: 1px solid var(--border); overflow: hidden; }
+        .about-photo img { width: 100%; height: 100%; object-fit: cover; }
         .about-text p { margin-bottom: 0.75rem; }
         .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
         .tag { padding: 0.35rem 0.85rem; background: var(--accent-light); color: var(--accent); border-radius: 100px; font-size: 0.78rem; font-weight: 600; }
@@ -327,23 +327,15 @@
             <h2 class="fade-in">Qui est Tina ?</h2>
             <div class="about-grid fade-in">
                 <div class="about-photo">
-                    <div class="about-photo-placeholder">
-                        Photo de Tina
-                    </div>
+                    <img src="tina.jpeg" alt="Tina Truong, coach en orientation scolaire à Paris" loading="lazy">
                 </div>
                 <div class="about-text">
                     <h3>Elle a navigué le système, elle le connaît de l'intérieur</h3>
                     <p>
-                        Tina est passée par la prépa scientifique au Lycée Saint-Louis, le Master d'actuariat à l'ISFA, puis le prestigieux Master Probabilités et Finance de l'École Polytechnique (ex-DEA El Karoui). Elle sait ce que c'est de choisir une voie exigeante et de s'y épanouir.
+                        Prépa scientifique au Lycée Saint-Louis, Master actuariat à l'ISFA, puis le Master Probabilités et Finance de l'École Polytechnique. Tina a aussi travaillé chez Crédit Agricole CIB et QBE. Elle sait où mènent les études, concrètement.
                     </p>
                     <p>
-                        Elle a travaillé en analyse de risque chez Crédit Agricole CIB, en tarification chez QBE, et en conseil actuariel chez Detralytics. Elle connaît concrètement le monde professionnel vers lequel les études mènent.
-                    </p>
-                    <p>
-                        Quadrilingue (français, anglais, vietnamien, mandarin), curieuse et rigoureuse, Tina apporte un regard à la fois technique et humain. Elle ne plaque pas de solution toute faite : elle part de la personne pour construire un projet qui lui ressemble vraiment.
-                    </p>
-                    <p>
-                        Ce qui la rend unique : elle connaît aussi bien Parcoursup que les classes prépa, les écoles d'ingénieurs, les écoles de commerce et les formations universitaires. Et surtout, elle sait distinguer les diplômes qui ont de la valeur de ceux qui n'en ont pas.
+                        Quadrilingue, rigoureuse et à l'écoute, elle ne plaque pas de solution toute faite. Elle part de la personne pour construire un projet qui lui ressemble. Et elle sait distinguer les vrais diplômes des formations qui n'ont de valeur que le nom.
                     </p>
                     <div class="tags">
                         <span class="tag">Polytechnique</span>
@@ -379,15 +371,15 @@
                 </div>
                 <div>
                     <div class="quote">
-                        <p>« On ne savait plus comment aborder le sujet. Tina a débloqué la situation en deux séances. »</p>
+                        <p>« À la maison, dès qu'on parlait orientation, ça partait en dispute. Tina a réussi à en discuter calmement avec lui, et en deux séances c'était débloqué. »</p>
                         <cite>Mère d'un élève de Terminale</cite>
                     </div>
                     <div class="quote">
-                        <p>« Mon fils a trouvé sa voie et a été admis dans son école n°1. Le meilleur accompagnement qu'on ait trouvé. »</p>
+                        <p>« Notre fils a été pris dans son premier choix. Franchement, on ne pensait pas que c'était possible vu le point de départ. »</p>
                         <cite>Père d'un étudiant en réorientation</cite>
                     </div>
                     <div class="quote">
-                        <p>« Tina a su parler à notre fille d'une façon qu'on n'arrivait plus à avoir. Professionnelle, humaine, efficace. »</p>
+                        <p>« Ce qui nous a plu, c'est que Tina ne lui a pas dit quoi faire. Elle l'a aidée à trouver par elle-même. Notre fille en est ressortie motivée et sûre de son choix. »</p>
                         <cite>Parents d'une lycéenne en Première</cite>
                     </div>
                 </div>
@@ -403,23 +395,23 @@
             <div class="grid-3">
                 <div class="card testi fade-in">
                     <div class="testi-stars">★★★★★</div>
-                    <blockquote>« J'étais perdue entre médecine et sciences po. Tina m'a aidée à comprendre ce qui me motivait vraiment. J'ai intégré Sciences Po Bordeaux et je m'y épanouis. »</blockquote>
+                    <blockquote>« Honnêtement, j'hésitais entre médecine et sciences po depuis des mois, je tournais en rond. Avec Tina j'ai compris ce qui me plaisait vraiment, et maintenant je suis à Sciences Po Bordeaux et ça me correspond à 100%. »</blockquote>
                     <div class="testi-author">
                         <div class="testi-avatar">L</div>
-                        <div class="testi-info"><strong>Léa, 19 ans</strong><span>Admise à Sciences Po Bordeaux</span></div>
+                        <div class="testi-info"><strong>Léa, 19 ans</strong><span>Sciences Po Bordeaux</span></div>
                     </div>
                 </div>
                 <div class="card testi fade-in">
                     <div class="testi-stars">★★★★★</div>
-                    <blockquote>« Après un BTS qui ne me plaisait pas, je ne savais plus quoi faire. Tina m'a aidé à construire un dossier solide. Admis en école d'ingénieurs du premier coup. »</blockquote>
+                    <blockquote>« J'avais fait un BTS par défaut et je ne savais plus où aller. Tina m'a aidé à monter un vrai dossier, on a bossé les entretiens ensemble, et au final j'ai été pris en école d'ingé. Je ne m'y attendais même pas. »</blockquote>
                     <div class="testi-author">
                         <div class="testi-avatar">T</div>
-                        <div class="testi-info"><strong>Thomas, 21 ans</strong><span>Réorientation réussie</span></div>
+                        <div class="testi-info"><strong>Thomas, 21 ans</strong><span>Réorientation en école d'ingénieurs</span></div>
                     </div>
                 </div>
                 <div class="card testi fade-in">
                     <div class="testi-stars">★★★★★</div>
-                    <blockquote>« Ma fille a retrouvé le sourire et la motivation. Tina a fait en quelques séances ce que nous essayions de faire depuis des mois. »</blockquote>
+                    <blockquote>« On avait tout essayé avec notre fille, les discussions, les salons, les tests en ligne... Rien ne marchait. Tina a réussi à la faire parler et à lui redonner confiance. Trois mois après, elle était prise dans l'école qu'elle voulait. »</blockquote>
                     <div class="testi-author">
                         <div class="testi-avatar">S</div>
                         <div class="testi-info"><strong>Sophie, maman</strong><span>Fille admise en école de commerce</span></div>
